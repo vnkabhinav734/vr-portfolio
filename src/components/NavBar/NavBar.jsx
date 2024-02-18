@@ -27,7 +27,7 @@ const NavBar = () => {
 return (
 <div className="navbar">
     <div>
-      <h1 className='font-signature text-5xl name'>Vinayak</h1>
+      <h1 className='name-heading'>Vinayak</h1>
     </div>
         <ul className='flex hidden-md'>
             {links.map(({ id, link }) => (
