@@ -1,0 +1,70 @@
+.iconslist {
+    position: absolute;
+    top: 15%;
+    z-index: 999;
+}
+
+@media (max-width: 768px) {
+    .iconslist {
+      margin-top: 150px; /* Adjust as needed */
+      overflow-y: hidden;
+    }
+  
+    .orderedlist {
+      margin-bottom: 20px; /* Adjust as needed */
+    }
+  }  
+
+.orderedlist {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    margin-left: -70px;
+    transition: margin-left 0.3s ease;
+}
+ 
+.linkedinlink {
+    color: white;
+    display: flex;
+    /* margin-left: 10px; */
+
+} 
+
+.linkedinicon{
+    margin-left: 20px;
+}
+
+.githublink{
+    color: white;
+    display: flex;
+}
+
+.githubicon{
+    margin-left: 33px;
+}
+
+.emaillink{
+    color: white;
+    display: flex;
+}
+
+.emailicon{
+    margin-left: 40px;
+}
+
+.resumeicon{
+    margin-left: 23px;
+}
+
+.resumelink{
+    color: white;
+    display: flex;
+}
+
+
+.orderedlist:hover{
+    margin-left: 1px;
+    background-color: gray;
+    border-radius: 0.375rem;
+}

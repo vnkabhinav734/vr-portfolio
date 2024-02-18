@@ -1,0 +1,48 @@
+.about {
+    width: 100%; /* Full width */
+    height: 100vh; /* Full height of the screen */
+    background: linear-gradient(to bottom, #1f2937, #000000); /* Gradient background from gray to black */
+    color: white; /* White text */
+}
+
+.section{
+    max-width: 1280px; /* Maximum width of the container */
+    padding: 16px; /* Padding around the content */
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center; /* Center items vertically */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+}
+
+/* .pb-8 {
+    padding-bottom: 2rem;
+} */
+
+.heading{
+    font-size: 2.25rem; /* Equivalent to 36px for text-4xl */
+    font-weight: bold; /* Make the text bold */
+    display: inline; /* Display the div as inline */
+    border-bottom-width: 4px; /* Set the border bottom width to 4px */
+    border-bottom-style: solid; /* Set the border bottom style to solid */
+    border-bottom-color: #718096; /* Set the border bottom color to gray */
+}
+
+.body{
+    font-size: 1.25rem; /* Equivalent to 20px for text-xl */
+    /* margin-top: 0rem; Equivalent to 80px for mt-20 */
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 8px; /* Adjust padding for smaller screens */
+    }
+    .heading {
+        font-size: 1.5rem; /* Decrease font size for headings */
+    }
+    .body {
+        font-size: 1rem; /* Decrease font size for body text */
+    }
+}

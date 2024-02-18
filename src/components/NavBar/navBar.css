@@ -1,0 +1,97 @@
+/* navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+  }
+  
+  /* heading.css */
+.name {
+    font-size: 3rem; /* Equivalent to Tailwind's text-5xl */
+    margin-left: 0.5rem; /* Equivalent to Tailwind's ml-2 */
+  }
+
+  .list-item {
+    padding-left: 1rem; /* Equivalent to Tailwind's px-4 */
+    padding-right: 1rem; /* Equivalent to Tailwind's px-4 */
+    cursor: pointer; /* Equivalent to Tailwind's cursor-pointer */
+    text-transform: capitalize; /* Equivalent to Tailwind's capitalize */
+    font-weight: 500; /* Equivalent to Tailwind's font-medium */
+    color: #6b7280; /* Equivalent to Tailwind's text-gray-500 */
+  
+    /* Hover effect */
+    transition: transform 0.3s ease-in-out; /* Equivalent to Tailwind's transition */
+    margin-right: 20px;
+  }
+  
+  .list-item:hover {
+    transform: scale(1.05); /* Equivalent to Tailwind's hover:scale-105 */
+  }
+
+  .flex{
+    display: flex;
+  }
+  
+  /* CSS for hiding the element on screens smaller than the medium breakpoint */
+@media (max-width: 768px) {
+  .hidden-md {
+    display: none;
+  }
+}
+
+/* CSS for displaying the element as a flex container on screens equal to or larger than the medium breakpoint */
+@media (min-width: 768px) {
+  .md-flex {
+    display: flex;
+  }
+}
+
+.hamburgermenu{
+  padding-right: 1rem;
+  z-index: 10; 
+  color: #6b7280;
+  position: absolute;
+  top: 15px; /* Adjust the top position as needed */
+  right: 20px;
+  cursor: pointer;
+}
+
+.mobilemenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #000000, #4B5563);
+  background-color: #000000;
+  background-color: #4B5563;
+  color: #6b7280;
+}
+
+.mobilelistitem:hover {
+  transform: scale(1.05); /* Equivalent to Tailwind's hover:scale-105 */
+}
+
+@media (min-width: 768px) {
+  .hamburgermenu {
+    display: none;
+  }
+}
+
+.mobilelistitem{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.75rem;
+}
