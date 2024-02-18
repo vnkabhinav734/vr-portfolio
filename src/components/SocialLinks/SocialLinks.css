@@ -7,7 +7,7 @@
 @media (max-width: 768px) {
     .iconslist {
       margin-top: 250px; /* Adjust as needed */
-      padding-top: 2rem;
+      padding-top: 3rem;
       overflow-y: hidden;
     }
   
