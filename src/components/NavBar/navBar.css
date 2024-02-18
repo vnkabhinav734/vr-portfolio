@@ -97,7 +97,6 @@
 }
 
 .name-head {
-  font-family: 'font-signature text-5xl name', cursive; /* Replace 'YourSignatureFont' with your desired font */
   font-size: 2.75rem; /* Adjust the font size as needed */
   padding-top: 10px;
 }
