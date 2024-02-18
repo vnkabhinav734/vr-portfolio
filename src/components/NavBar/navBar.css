@@ -11,8 +11,9 @@
   
   /* heading.css */
 .name {
-    font-size: 3rem; /* Equivalent to Tailwind's text-5xl */
+    font-size: 2rem; /* Equivalent to Tailwind's text-5xl */
     margin-left: 0.5rem; /* Equivalent to Tailwind's ml-2 */
+    margin-top: 5px;
   }
 
   .list-item {
