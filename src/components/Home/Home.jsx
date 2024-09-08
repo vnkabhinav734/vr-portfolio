@@ -10,11 +10,13 @@ const Home = () => {
         <div className='content'>
             <div className='data'>
             <div className='body'>
-              <h2 className='head'>I am a Software Developer</h2>
-                <p className='para'>Welcome to my website. I am a Software Developer with 
-                2 years of experience. I enjoy developing applications 
-                using React, Java, Spring boot and Node.js
+              <h2 className='head'>I am a Software Developer and Automation Tester</h2>
+                <p className='para'>Welcome to my website. I am a Software Developer and automation tester with over
+                2 years of industry experience.I enjoy developing applications 
+                using React, Java, Spring boot and Node.js. Currently I am working as Test Engineer in Wipro to develop frameworks 
+                leveraging BDD Cucumber and Selenium to automate regression testing in UI and backend applications.
                 </p>
+
             <div className='button-container'>
               <Link to='portfolio' smooth duration={500} className='button hover-rotate'>Portfolio
                 <span>

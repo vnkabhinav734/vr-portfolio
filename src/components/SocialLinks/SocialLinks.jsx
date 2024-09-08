@@ -22,7 +22,7 @@ const SocialLinks = () => {
             </a>
         </li>
         <li className="orderedlist" > 
-            <a href='mailto:vrupana@dal.ca' className='emaillink'>
+            <a href='mailto:vinayakabhinav.r@gmail.com' className='emaillink'>
             <span className="emailtext">Email</span> 
             <HiOutlineMail size={20} className='emailicon'/>
             </a>
